@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+   
+}
+.color-fondo {
+    background-color: #fefefc;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+header ,a {
+    text-decoration: none;
+}
+.logo{
+    font-size: 3rem;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    margin-left: 50px;
+    color: black;
+   
+}
+
+
+nav {
+    width: 50%;
+    margin: 10px auto;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+.links-nav > li {
+    position: relative;
+    display: inline-block;
+   
+
+}
+.links-nav > li > a {
+    display: block;
+    padding: 20px  40px ;
+    color: rgb(47, 47, 177);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.links-nav li a:hover{
+    color: black;
+    transition: all 2.5s;
+
+}
+
+
+
+.links-nav .boton-nav{
+    margin: 10px;
+    border-style: none;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: rgb(47, 47, 177);
+    cursor: pointer;
+}
+.boton-nav:hover {
+    color: black;
+    transition: all 2.3s;
+}
+
+
+
+.img-user, .img-cart {
+    width: 30px;
+    height: 30px;
+}
+.img-user{
+    margin-right: 50px;
+}
+.img-cart {
+    margin-right: 50px;
+}
+
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+   
+    
+    
+}
+.content-card{
+    width: 330px;
+    height: auto;
+
+
+}
+.content-card img {
+    width: 100%;
+    margin-top: 30px;
+}
+.texto-card h3 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+.texto-card span {
+    color: rgb(241, 44, 44);
+    font-size: 1.3rem;
+    margin-left: 140px;
+}
+.btn-card button {
+    width: 200px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: #E6D2AA;
+    color:black;
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.seccion-formularios {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 30px;
+    gap: 50px;
+   
+
+}
+
+.form-titulo {
+    margin-top: 1rem;
+    margin-left: -5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+
+}
+.form-subtitulo {
+    font-size: 1.2rem;
+    padding: 5px;
+    font-weight: 400;
+
+}
+
+
+.formulario-registro {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 170px;
+    background-color: #f3f3f3;
+   
+}
+.form-content label {
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.form-content p {
+    display: flex;
+    flex-direction: column;
+
+}
+.form-content input {
+    width: 80%;
+    height: 35px;
+
+}
+
+.boton-registro input {
+    width: 30%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #283235 ;
+    color: white;
+    margin-top: 10px;
+}
+.iniciar-sesion a {
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    color: rgb(21, 21, 21);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 8px;
+
+}
+.titulo-login{
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: 500;
+}
+.form-login{
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+.formulario-usuario ,p {
+    display: flex;
+    flex-direction: column;
+}
+.formulario-usuario, input {
+   width: 70%;
+   height: 35px;
+}
+.formulario-usuario ,label {
+    padding: 7px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.boton-usuario .btn-usuario {
+    width: 35%;
+    height: 45px;
+    color: white;
+    background-color: #2C3639;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+.seccion-carrito {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-top: 100px;
+}
+
+.productoEnCarrito{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+.compra{
+display: flex;
+align-items: center;
+gap: 2rem;
+border: 0.5px solid grey;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+width: 105%; 
+}
+.compra h3 {
+    font-size: 1rem;
+}
+
+.seccion-resumen {
+    display: flex;
+}
+.resumen-compra {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around
+ }
+ 
+ 
+ 
+    
+     
+ 
+ 
+ 
+ .compra img {
+     width: 6rem;
+ }
+ .compra button {
+     width: 30px;
+     height: 30px;
+     padding: 5px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     border: none;
+ 
+ }
+ 

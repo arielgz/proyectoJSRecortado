@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Registrarse</title>
+</head>
+<body  class="color-fondo">
+    
+        <header>
+            <a  class="logo" href="../index.html">Blue Cat</a>
+            <nav>
+                <ul class="links-nav">
+                    <li><button class="boton-nav">Abrigos</button>
+                    <li><button class="boton-nav">Sweaters</button> </li>
+                    <li><a href="#">Oulet</a>  </li>
+                    <li><a href="#">Contacto</a>  </li>
+                </ul>
+            </nav>
+            <a href="../secciones/registroYLogin.html"><img class="img-user" src="../img/iconos/user.png" alt=""></a>
+            <a href="../secciones/carrito.html"><img class="img-cart" src="../img/iconos/shopping-bag.png" alt=""></a>
+            
+        </header>  
+
+
+        <main>
+
+            <section class="seccion-formularios">
+        
+                
+        
+                <div class="formulario-registro">
+        
+                    <h1 class="form-titulo">Nuevo Cliente</h1>
+                    <h2 class="form-subtitulo">Registrarme</h2> 
+        
+        
+                    <form id="formulario-registro" class="form-content">
+                        <p>
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" type="text">
+                        </p>
+                        <p>
+                            <label for="apellido">Apellido</label>
+                            <input id="apellido" type="text">
+                        </p>
+                        <p>
+                            <label for="correo Electronico">Correo Electronico *</label>
+                            <input id="email" type="email">
+                        </p>
+                        <p>
+                            <label for="contrasenia">Contrasenia *</label>
+                            <input id="contrasenia" type="password">
+                        </p>
+                        <p class="boton-registro">
+                            <input id="boton-crear" type="submit" value="Crear mi cuenta">
+                        </p>
+                        <p class="iniciar-sesion"><a href="../secciones/registroYLogin.html">Iniciar Sesión</a></p>
+                    </form>
+                </div>
+        
+                <div class="form-login">
+                    
+                        <h2 class="titulo-login">Soy Cliente</h2>
+        
+                    <form class="formulario-usuario" id="formulario-usuario">
+                        <p>
+                            <label for="">Correo Electronico *</label>
+                            <input type="email" id="email-user">
+                        </p>
+                        <p>
+                            <label for="">Contrasenia *</label>
+                            <input type="password" id="contrasenia-user">
+                        </p>
+                        <p class="boton-usuario">
+                            <input class="btn-usuario" type="submit" value="Iniciar sesión">
+                        </p>
+                    </form>
+                    
+                </div>
+            </section>
+        </main>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="../javaScript/registroYLogin.js"></script>
+ 
+</body>
+</html>
+
+
